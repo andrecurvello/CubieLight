@@ -2,3 +2,24 @@ CubieLight
 ==========
 
 Light a LED for your CubieBoard
+How to use:
+1.Boot your cubieboard
+2.make sure your cubieboard can connect to the internet
+3.use SSH,TLL Line,Terminal or VNC to enter these command:
+sudo su
+#Use ROOT User
+apt-get install git -y
+#Install Git
+apt-get install apache2 apache2-mpm-prefork apache2-utils apache2.2-common libapache2-mod-php5 libapr1 libaprutil1 libdbd-mysql-perl libdbi-perl libnet-daemon-perl libplrpc-perl libpq5 mysql-client-5.5 mysql-common mysql-server mysql-server-5.5 php5-common php5-mysql -y
+#Install Apache,PHP...
+git clone https://github.com/TonyLianLong/CubieLight.git
+#Download CubieLight
+cd CubieLight
+#Into CubieLight folder
+rm /var/www/index.htm
+cp index.php /var/www
+#Copy File
+4.use your mobilephone or computer to visit http://ip (change the "ip" to your cubieboard's IP,you can use the "ifconfig" command)
+5.enjoy~
+
+You can change the PHP file to be usful.
