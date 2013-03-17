@@ -16,4 +16,4 @@ cp index.php /var/www<br />
 4.use your mobilephone or computer to visit http://ip (change the "ip" to your cubieboard's IP,you can use the "ifconfig" command)<br />
 5.enjoy~<br />
 
-You can change the PHP file to be usful.
+You can change the PHP file to be useful.
